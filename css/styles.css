@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+#hmpg{
+    background-image: url("../Images/h_img.jpg");
+}
+nav .navbar{
+    padding-right: 0px;
+  }
+  .navbar-brand{
+    margin-right: 70%;
+    font-weight: bolder;
+  }
+  .nav-item a{
+    font-size: 20px;
+    font-weight: bolder;
+  }
