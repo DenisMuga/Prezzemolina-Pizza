@@ -69,6 +69,11 @@ $(document).ready(function(){
             $(".instructions").hide();
             $("div.choice").slideDown(1500);
         }
+        total = price + cust_price + topping_value;
+        console.log(total);
+        let checkoutTotal = 0;
+        checkoutTotal = checkoutTotal + total;
+
 
 
 
