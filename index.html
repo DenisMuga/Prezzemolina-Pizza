@@ -118,7 +118,7 @@
           <form action="">
             <label for="select">Select Flavor</label>
             <select class="browser-default custom-select custom-select-md mb-3 name" id="Flavor">
-              <option value="Select Flavor">---Select Flavor---</option>
+              <option selected value="0">---Select Flavor---</option>
               <option value="Chicken Alfredo Pizza">Chicken Alfredo Pizza</option>
               <option value="Raspberry Dessert Pizza">Raspberry Dessert Pizza</option>
               <option value="Chicken Alfredo Pizza">Chicken Alfredo Pizza</option>
@@ -128,11 +128,18 @@
               </select>
               <label for="select">Select Size</label>
               <select class="browser-default custom-select custom-select-md mb-3" id="size">
-                <option selected value="0">Select size here</option>
+                <option selected value="0">---Select Size---</option>
                 <option value="large">Large      sh. 1200</option>
                 <option value="medium">Medium      sh. 850</option>
                 <option value="small">Small      sh. 600</option>
               </select>
+              <label for="crust">Select Favorite Crust</label>
+                <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                  <option selected value="0">---Select Crust---</option>
+                  <option value="Crispy">Crispy      sh. 200</option>
+                  <option value="Stuffed">Stuffed      sh. 150</option>
+                  <option value="Gluten-free">Gluten-free      sh. 180</option>
+                </select>
 
           </form>
         </div>
