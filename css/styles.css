@@ -37,3 +37,11 @@ nav .navbar{
   .carousel-item {
     display: flex;
   }
+  .order-overlay{
+    background-color: wheat;
+    color: black;
+    border-radius: 2%;
+  }
+  .order h2{
+    text-align: center;
+  }
