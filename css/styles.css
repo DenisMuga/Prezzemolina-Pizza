@@ -45,3 +45,16 @@ nav .navbar{
   .order h2{
     text-align: center;
   }
+  .choice{
+    display: none;
+  }
+  td,th{
+    font-size: 20px;
+    color: white;
+  }
+  .delivery{
+    display: none;
+  }
+  .deliver{
+    display: none;
+  }
