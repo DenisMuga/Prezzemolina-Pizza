@@ -25,15 +25,15 @@ nav .navbar{
       background-attachment: fixed;
       position: relative;
   }
-  h1{
+  .text h1{
     margin-top: -40%;
     color: white;
+  } 
+  .text h5{color: white;
   }
-  h5{color: white;
+  #variety{
+    padding-top: 30px;
   }
-  #wordy{
-    margin-left: 10%;
-    margin-top: 20%;
-    text-align: center;
-    background-color: burlywood;
+  .carousel-item {
+    display: flex;
   }
