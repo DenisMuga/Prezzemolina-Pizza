@@ -3,17 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
-#hmpg{
-    background-image: url("../Images/h_img.jpg");
-}
+
 nav .navbar{
     padding-right: 0px;
   }
   .navbar-brand{
-    margin-right: 70%;
+    margin-right: 60%;
     font-weight: bolder;
   }
   .nav-item a{
     font-size: 20px;
     font-weight: bolder;
+  }
+  .landing{
+      background-image: url("../Images/bg-pizza.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      overflow-x: hidden;
+      padding-top: 60%;
+      background-attachment: fixed;
+      position: relative;
+  }
+  h1{
+    margin-top: -40%;
+    color: white;
+  }
+  h5{color: white;
+  }
+  #wordy{
+    margin-left: 10%;
+    margin-top: 20%;
+    text-align: center;
+    background-color: burlywood;
   }
