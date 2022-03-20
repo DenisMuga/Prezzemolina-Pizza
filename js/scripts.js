@@ -23,6 +23,39 @@ $(document).ready(function(){
             case "0":
             price = 0;
             break;
+            case "large":
+            price = 1200;
+            console.log(price);
+            break;
+            case "medium":
+                price = 850;
+                console.log("The price is " + price);
+                break;
+            case "small":
+                price = 600;
+                console.log(price);
+                default:
+                    console.log("Error");
+        }
+
+        switch(pcrust){
+            case "0":
+                cust_price = 0;
+                break;
+                case "Crispy":
+                    cust_price = 200;
+                break;
+                case "Stuffed":
+                    cust_price = 250;
+                break;
+                case "Gluten-free":
+                    cust_price = 180;
+                break;
+                default:
+                    console.log("No Price");
+
+
+
         }
 
 
