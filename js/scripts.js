@@ -53,10 +53,21 @@ $(document).ready(function(){
                 break;
                 default:
                     console.log("No Price");
-
-
-
         }
+        let ptopping_value = ptopping.length*50;
+        console.log("topping value" + topping_value);
+
+        if((psize == "0") && (pcrust == "0")){
+            console.log("Nothing Selected");
+            $("button.continue").show();
+            $(".instructions").show();
+            $("div.choice").show();
+            alert("Select Pizza size and Crust");
+        }
+        else{
+            
+        }
+
 
 
     });
