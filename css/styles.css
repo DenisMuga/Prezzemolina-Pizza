@@ -58,3 +58,7 @@ nav .navbar{
   .deliver{
     display: none;
   }
+  #product-list img{
+    width: 23vw;
+    height: 40vh;
+  }
