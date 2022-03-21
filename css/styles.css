@@ -62,3 +62,6 @@ nav .navbar{
     width: 23vw;
     height: 40vh;
   }
+  #product-list h1, h3{
+    text-align: center;
+  }
