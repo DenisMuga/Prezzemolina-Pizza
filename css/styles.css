@@ -50,7 +50,7 @@ nav .navbar{
   }
   td,th{
     font-size: 20px;
-    color: white;
+    color: brown;
   }
   .delivery{
     display: none;
@@ -64,4 +64,10 @@ nav .navbar{
   }
   #product-list h1, h3{
     text-align: center;
+  }
+  #make-order{
+    margin-top: 5%;
+  }
+  #Contact-Us{
+    margin-top: 5%; 
   }
