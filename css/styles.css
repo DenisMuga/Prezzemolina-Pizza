@@ -16,7 +16,7 @@ nav .navbar{
     font-weight: bolder;
   }
   .landing{
-      background-image: url("../Images/bg-pizza.jpg");
+      background-image: url("../Images/black-bg.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
@@ -70,4 +70,10 @@ nav .navbar{
   }
   #Contact-Us{
     margin-top: 5%; 
+    background-color: wheat;
+    border: 2px solid white;
+    border-radius: 15px;
+  }
+  #Contact-Us h1{
+    text-align: center;
   }
